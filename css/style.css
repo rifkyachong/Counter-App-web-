@@ -1,0 +1,68 @@
+body, h1, p {
+	margin: 0;
+}
+
+.container {
+	width: 450px;
+	height: 700px;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+}
+
+/*.container::before {
+	content: "";
+	background-image: url("../tally-count-counter-electronic.jpg");
+	background-size: cover;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	opacity: 0.3;
+}*/
+
+header {
+	position: relative;
+	height: 50px;
+	margin: 10px;
+
+}
+
+main {
+	margin: 10px;
+
+}
+
+.box-num {
+	width: 100px;
+	margin: 30px auto;
+
+}
+
+#count-num {
+	font-size: 50px;
+	border: 2px solid black;
+}
+
+button {
+	width: 150px;
+	margin: 20px auto;
+	display: block;
+	font-size: 24px;
+	border-radius: 5px;
+}
+
+#inc {
+	background-color: rgba(128,255,0,0.7);
+}
+
+#save {
+	background-color: rgba(153,153,255,0.7);
+}
+
+.result p {
+	font-size: 24px;
+	margin: 8px;
+}
+
